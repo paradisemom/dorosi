@@ -19,8 +19,8 @@ import openai
 import os
 
 # 設定 OpenAI API 密鑰
-# openai.api_key = os.environ["OPENAI_API_KEY"]
-openai.api_key = "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"
+openai.api_key = os.environ["OPENAI_API_KEY"]
+# openai.api_key = "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"
 
 # 輸入文本
 input_text = "今天天氣很好，請用中文回答。請做一首跟蘿莉有關的詩"
